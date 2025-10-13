@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Sparkles, Users, Heart, TrendingUp } from "lucide-react"
+import { ArrowRight, Sparkles, Users, Heart, BookOpen } from "lucide-react"
 
 export function Hero() {
   const openTypeform = () => {
@@ -39,14 +39,6 @@ export function Hero() {
               Join the Waitlist
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-lg px-8 py-6 border-2 bg-background/50 backdrop-blur-sm"
-              onClick={openTypeform}
-            >
-              For Investors
-            </Button>
           </div>
         </div>
 
@@ -74,12 +66,12 @@ export function Hero() {
 
           <div className="rounded-2xl bg-background/60 backdrop-blur-md p-8 shadow-lg border border-border/50">
             <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/20">
-              <TrendingUp className="h-6 w-6 text-primary" />
+              <BookOpen className="h-6 w-6 text-primary" />
             </div>
-            <h3 className="mb-2 text-xl font-semibold text-card-foreground">For Investors</h3>
+            <h3 className="mb-2 text-xl font-semibold text-card-foreground">Learn Anything</h3>
             <p className="leading-relaxed text-muted-foreground">
-              A massive market opportunity addressing the digital divide for 70M+ aging adults with a scalable,
-              multi-generational platform.
+              From video calls with grandchildren to exploring new hobbies, Aya adapts to your interests and helps you
+              grow at your own pace.
             </p>
           </div>
         </div>
